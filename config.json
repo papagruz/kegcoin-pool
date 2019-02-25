@@ -1,6 +1,6 @@
 {
-  "coin": "turtlecoin",
-  "symbol": "TRTL",
+  "coin": "Kegcoin gold",
+  "symbol": "KEG",
   "coinUnits": 100,
   "coinDifficultyTarget": 30,
   "logging": {
@@ -17,10 +17,15 @@
   "poolServer": {
     "enabled": true,
     "clusterForks": "auto",
-    "poolAddress": "TRTLv3mnq2wS6GepH6nb628jEjFseeojACYToJ1BXaZNNEvLkzW327zTVCh7ncGtS2MU2usGNq9ygVwiCTTft9QkN3t5P2Xqv3f",
+    "poolAddress": "0x",
     "blockRefreshInterval": 1000,
     "minerTimeout": 3600,
     "ports": [
+        {
+        "port": 1001,
+        "difficulty": 1,
+        "desc": "Phone mining"
+      },
       {
         "port": 3333,
         "difficulty": 100,
@@ -44,7 +49,7 @@
       }
     ],
     "varDiff": {
-      "minDiff": 100,
+      "minDiff": 1,
       "maxDiff": 500000,
       "targetTime": 10,
       "retargetTime": 30,
@@ -90,8 +95,8 @@
     "interval": 120,
     "maxAddresses": 50,
     "transferFee": 100,
-    "minPayment": 100000,
-    "minPaymentIdPayment": 10000000,
+    "minPayment": 0.01,
+    "minPaymentIdPayment": 0.01,
     "maxTransactionAmount": 0,
     "denomination": 100
   },
@@ -116,12 +121,12 @@
   },
   "daemon": {
     "host": "127.0.0.1",
-    "port": 11898
+    "port": 4057
   },
   "wallet": {
     "host": "127.0.0.1",
-    "port": 8070,
-    "password": "<replace with rpc password>"
+    "port": 5000,
+    "password": "passwordrpc"
   },
   "redis": {
     "host": "127.0.0.1",
