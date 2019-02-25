@@ -1,12 +1,12 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
- ##Kegcoin gold mining pool##
+
+# Kegcoin gold mining poo
 
 
-turtle-pool (for NodeJS LTS)
+keg-pool (for NodeJS LTS)
 ====================
 Formerly known as cryptonote-forknote-pool, forked from Forknote Project.
 
-High performance Node.js (with native C addons) mining pool for Cryptonote based coins, created with the Forknote software such as Bytecoin, Dashcoin, etc..
+High performance Node.js (with native C addons) mining pool for kegcoin.
 
 Comes with lightweight example front-end script which uses the pool's AJAX API.
 
